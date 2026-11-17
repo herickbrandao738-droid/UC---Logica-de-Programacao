@@ -27,27 +27,17 @@ diferenca = []
 multiplicacao = []
 soma = []
 
-
-
-
 for i in range(20):
     n1 = int(input(f"Digite o {i+1}° número para o vetor 1: "))
     vetor1.append(n1)
 
-
     n2 = int(input(f"Digite o {i+1}° número para o vetor 2: "))
     vetor2.append(n2)
-
-
-
 
 for i in range(20):
     diferenca.append(vetor1[i] - vetor2[i])
     soma.append(vetor1[i] + vetor2[i])
     multiplicacao.append(vetor1[i] * vetor2[i])
-
-
-
 
 print("\n===== RESULTADOS =====")
 print("Vetor 1:", vetor1)
